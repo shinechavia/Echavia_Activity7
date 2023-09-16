@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Practice</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#home-section">Web Development</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="mb-lg-0 me-lg-auto"></div> <!-- This empty div is used to push the navigation links to the right side of the navigation bar. -->
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#about-section">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#services-section">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact-section">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                <div id="home-section"></div>
+        <!-- Content Column -->
+        <div class="container-flex">
+            <div class="row">
+                <div class="col-md-1s mx-auto">
+                    <div id="carouselExampleCaptions" class="carousel slide mx-auto my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                    <img class="img-fluid d-block w-100" src="images/carousel1.jpg" alt="Enter">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Unlocking Digital Possibilities</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <img src="images/carousel2.jpg" class="img-fluid d-block w-100" alt="Code">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Coding Journey</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <img src="images/carousel3.jpg" class="img-fluid d-block w-100" alt="Life">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Embrace the Coder's Rhythm</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- About Column -->
+        <div class="col-md-8 mx-auto">
+            <div id="about-section" class="d-flex flex-wrap"></div>
+            <section>
+                <h3 style="color: black; font-size: 50px;">About</h3>
+            </section>
+            <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mx-auto text-center">
+                            <img src="https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2417.jpg" height="200px" width="800px" alt="Web" class="img-fluid" style="border-radius: 10px;">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group d-flex flex-wrap center-content">
+                                <p class="text-justify" style="margin-bottom: 0px;">
+                                    <strong><a href="https://www.w3schools.com/whatis/" target="_blank">Web development</a></strong>, a dynamic and expansive field, is the intricate process of crafting websites and web applications that engage and serve users. It involves a harmonious blend of creativity and technical prowess, encompassing various domains to deliver exceptional online experiences. Front-end development focuses on the aesthetics and interactivity of websites, leveraging <strong><a href="https://www.w3schools.com/html/" target="_blank">HTML</a>,</strong>
+                                    <strong><a href="https://www.w3schools.com/css/" target="_blank">CSS</a>,</strong>
+                                    and
+                                    <strong><a href="https://www.w3schools.com/js/" target="_blank">Javascript</a></strong> to create visually appealing and user-friendly interfaces. In contrast, back-end development operates behind the scenes, where it employs a myriad of programming languages and databases to ensure data storage, user authentication, and the seamless functioning of web applications.</p>
+                                <p class="text-justify">Moreover, web developers often navigate the intricate landscape of frameworks and libraries, such as <strong><a href="https://reactjs.org/" target="_blank">React</a>,</strong>
+                                    <strong><a href="https://angular.io/" target="_blank">Angular</a>,</strong>
+                                    and
+                                    <strong><a href="https://expressjs.com/" target="_blank">Express.js</a></strong>, to streamline their development efforts. In addition to functionality, web developers prioritize key considerations like responsive design, which ensures compatibility across diverse devices, stringent security measures to safeguard user data, and performance optimization techniques to guarantee swift loading times and a satisfying user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br>
+        <!-- Services Column -->
+        <div class="col-md-12 mx-auto"> 
+            <div id="services-section"></div>
+                <section><h3 style="color: black; font-size: 50px;">Services</h3></section><br>
+                    <div class="form-group d-flex flex-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card my-card">
+                                        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" class="card-img-top" alt="Card Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bootstrap</h5>
+                                            <p class="card-text">Bootstrap is a popular open-source framework for front-end web development, providing a collection of pre-designed HTML, CSS, and JavaScript components to simplify website and web application design.</p>
+                                    <div class="row justify-content-center"> <!-- Add justify-content-center here -->
+                                    <div class="col-md-12 text-center">
+                                        <a href="https://getbootstrap.com/" class="btn btn-custom"">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-3 ">
+                    <div class="card my-card">
+                        <img src="https://static.invertase.io/assets/social/firebase-logo.png" height="251px" class="card-img-top" alt="Card Image">
+                        <div class="card-body ">
+                            <h5 class="card-title">Firebase</h5>
+                                <p class="card-text">Firebase is Google's comprehensive platform for building, managing, and scaling web and mobile apps, offering various services like a real-time database and authentication for efficient development.</p>
+                                    <div class="row justify-content-center"> <!-- Add justify-content-center here -->
+                                    <div class="col-md-12 text-center">
+                                        <a href="https://firebase.google.com/" class="btn btn-custom"">Learn More</a>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-3">
+                    <div class="card my-card">
+                        <img src="images/php.jpg" height="250px" class="card-img-top" alt="Card Image">
+                            <div class="card-body">
+                                <h5 class="card-title">PHP</h5>
+                                    <p class="card-text">PHP is a server-side scripting language commonly used for web development, enabling dynamic and interactive web applications by processing code on the server before sending it to the client's browser.</p>
+                            <div class="row justify-content-center"> <!-- Add justify-content-center here -->
+                                <div class="col-md-12 text-center">
+                                    <a href="https://www.php.net/" class="btn btn-custom"">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://urbantution.com/content_image/blog/7a727005-e70f-4ab3-b4fa-c76c5bde0213.jpg" height="250px" class="card-img-top" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">mySQL</h5>
+                                    <p class="card-text">MySQL is an open-source relational database management system widely used to securely store and efficiently manage data in various web applications, offering exceptional scalability, reliability, and speed.</p>
+                                <div class="row justify-content-center"> <!-- Add justify-content-center here -->
+                                <div class="col-md-12 text-center">
+                                    <a href="https://www.mysql.com/" class="btn btn-custom">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Contact Column -->
+    <div class="col-md-5 mx-auto">
+        <div class="bg-white p-3" style="border: 1px solid #dbd0d0; border-radius: 10px; margin: 10px; padding: 15px !important; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);">
+            <div id="contact-section">
+                <h3 style="color: black; font-size: 50px;">Contact Us</h3>
+                <br>
+                <p style="margin-top: 10px; font-size: 18px; padding-bottom: 50px;">Got questions or feedback? We're here to help! Reach out to us, and our team will assist you promptly. Your satisfaction is our priority.</p>
+                    <form action="" method="POST">
+                        <div class="form-group d-flex flex-wrap">
+                            <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                <label for="first_name">First Name*</label>
+                                <input type="text" class="form-control smaller-input" id="first_name" name="first_name" required>
+                            </div>  
+                                <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                <label for="last_name">Last Name*</label>
+                                <input type="text" class="form-control smaller-input" id="last_name" name="last_name" required>
+                                </div>
+                            </div>
+                            <div class="form-group d-flex flex-wrap">
+                                <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                    <label for="email">Email*</label>
+                                    <input type="email" class="form-control smaller-input" id="email" name="email" required>
+                            </div>
+                                <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                    <label for="phone">Phone*</label>
+                                    <input type="tel" class="form-control smaller-input" id="phone" name="phone" required>
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                <div style="margin-left: 0; padding: 0px; flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin, width, and padding as needed for mobile -->
+                                    <label for="message">Message*</label>
+                                    <textarea class="form-control smaller-input" id="message" name="message" rows="4" required></textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <div style="text-align: center;">
+                                <button class="btn-style" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        </main>
+        <!-- Footer -->
+        <footer class="bg-black text-white text-center py-3">
+            &copy; 2023 Shin Echavia: Web Development | All Rights Reserved.
+        </footer>
+    </body>
+</html>
+
