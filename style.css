@@ -1,5 +1,6 @@
 html, body {
     overflow-x: hidden;
+    height: 100%;
 }
 
 
@@ -186,7 +187,3 @@ div.col-md-4.mx-auto.text-center {
         padding-right: 0;
     }
 }
-
-
-
-
