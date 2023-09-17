@@ -78,7 +78,7 @@ a {
 
 /* Apply rounded corners to the container */
 .col-md-9 img {
-    border-radius: 20px; /* You can adjust the radius to your preference */
+    border-radius: 30px; /* You can adjust the radius to your preference */
     overflow: hidden; /* Ensure content inside does not overflow the curve */
     width: 100%;
 
