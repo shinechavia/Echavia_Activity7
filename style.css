@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
 body {
     background: linear-gradient(to bottom, #f1f1f1, rgb(187, 215, 224));
 }
@@ -172,11 +177,16 @@ div.col-md-4.mx-auto.text-center {
 /* Media query for small screens (e.g., mobile devices) */
 @media (max-width: 768px) {
     .center-content {
-        /* Add styles to center content on small screens */
-        justify-content: left; /* Vertically center content */
-        padding-left: 30px;
+        /* Center content vertically */
+        display: flex;
+        align-items: center;
+
+        /* Remove horizontal padding to prevent overflow */
+        padding-left: 0;
+        padding-right: 0;
     }
 }
+
 
 
 
